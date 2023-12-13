@@ -1,0 +1,66 @@
+
+  .column {
+    float: left;
+    width: 30%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .center{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-top: 50px;
+  }
+  .logopic{
+    width: 20%;
+    margin: 0;
+    height: 20%;
+  }
+  *{
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+  }
+.container {
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+  }
+.adsimg{
+    filter: brightness(60%);
+    margin-top: 20px;
+}
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    right: 100px;
+    color: white;
+  }
+  .centered2 {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+  }
+  .container p {
+    font-size: 60px;
+    font-family: cursive;
+  }
+  .centered-left {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    right: 100px;
+    top: 100px;
+    margin:0 700px 0 0;
+  }
+  .centered-left img{
+    width: 150%;
+  }
+  #SHOPFRONT{
+    text-align: center;
+    font-size: 40px;
+  }

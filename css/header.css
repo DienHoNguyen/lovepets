@@ -1,0 +1,73 @@
+body {
+    font-family: "Cascadia Code",Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;
+    margin: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .site-header { 
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+  }
+  
+  .site-header::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .site-identity {
+    float: left;
+  }
+  
+  .site-identity h1 {
+    font-size: 1.5em;
+    margin: .7em 0 .3em 0;
+    display: inline-block;
+  }
+  
+  .site-identity img {
+    max-width: 55px;
+    float: left;
+    margin: 0 10px 0 0;
+  }
+
+  .site-navigation img {
+    max-width: 40px;
+    float: left;
+    margin: 10px 20px 0 0;
+  }
+  
+  .site-navigation {
+    float: right;
+  }
+  
+  .site-navigation ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+  .badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c67605;
+  }
+  #lblCartCount {
+      font-size: 20px;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+      font-weight: bold;
+  }
